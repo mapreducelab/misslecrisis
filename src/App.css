@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button__create{
+  width: 100px;
+  height: 20px;
+  background: red;
+}
+
+.item__missile{
+  position: absolute;
+  border: #282c34 1px solid;
+}
+
+.container__world{
+  width: 1000px;
+  height:  1000px;
+  background: blue;
+  transform-origin: top left;
+}
+
+.line__missile{
+  height: 1px;
+  background: red;
+}
+
+.container__origin {
+  background: yellow;
+  border-radius: 2px;
+}
+
+.container__target {
+  position: absolute;
+  background: purple;
+  border-radius: 2px;
+}
+.container__current {
+  position: absolute;
+  background: white;
+  height: 5px;
+  width: 5px;
+  border-radius: 2px;
+}
